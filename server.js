@@ -5,3 +5,5 @@ const bodyParser = require('body-parser');
 const app = express();
 
 //BodyParser Middleware
+app.use(bodyParser.json());
+
